@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Farm + Feed</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Code:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="javascript:about()" class="underline">/about</a>
+      <a href="javascript:menu()" class="underline">/menu</a>
+      <a href="javascript:reserve()" class="underline">/reserve</a>
+      <a href="javascript:order()" class="underline">/order</a>
+      <a href="javascript:hours()" class="underline">/hours</a>
+      <a href="javascript:events()" class="underline">/events</a>
+      <a href="javascript:games()" class="underline">/games</a>
+      <a href="javascript:contact()" class="underline">/contact</a>
+    </nav>
+  </header>
+  <div class="site-title">
+    <h1>
+      <a href="/">farm+feed:$</a><span class="cursor">█</span>
+    </h1>
+  </div>
+  <div id="app" class="container">
+
+  </div>
+  <footer>
+
+    <br><br>
+    <div>
+
+      &copy;
+      <span id="copyright">
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+      </span>
+      Farm + Feed
+    </div>
+
+  </footer>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
