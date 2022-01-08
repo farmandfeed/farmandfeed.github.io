@@ -133,13 +133,23 @@ function contact() {
 
 window.onload = about;
 
+let musicStarted = false;
+document.querySelector('audio').addEventListener('play', () => {
+  musicStarted = true;
+});
+
 document.addEventListener('click', (e) => {
-  if (e.target.tagName === 'A') {
-    // Ignore clicks on links
-    return;
+  if (!musicStarted) {
+    // Try to autostart the music
+    document.querySelector('audio').play();
+    musicStarted = true;
   }
-  typewriter.stop();
-  fastForward();
+
+  if (e.target.tagName !== 'A') {
+    // For any click that isn't a link, fast forward the typewriter
+    typewriter.stop();
+    fastForward();
+  }
 });
 
 function fastForward() {

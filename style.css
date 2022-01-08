@@ -35,18 +35,6 @@ header {
     padding: 40px 0px 60px;
 }
 
-header .site-title a {
-    text-decoration: none;
-}
-
-header .devlog-title {
-    font-weight: bold;
-}
-
-header h1 a {
-    color: rgb(185, 180, 169);
-}
-
 footer {
     margin: auto;
     padding-bottom: 2rem;
@@ -63,6 +51,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -145,4 +134,12 @@ a {
     to {
         opacity: 0
     }
+}
+
+audio {
+  position: absolute;
+  bottom: 25px;
+  right: 10px;
+  width: 150px;
+  height: 30px;
 }
