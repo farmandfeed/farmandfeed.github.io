@@ -1,3 +1,11 @@
+const logo =
+'  ______                             ______            _ \n' +
+' |  ____|                      _    |  ____|          | |\n' +
+' | |__ __ _ _ __ _ __ ___    _| |_  | |__ ___  ___  __| |\n' +
+' |  __/ _` | \'__| \'_ ` _ \\  |_   _| |  __/ _ \\/ _ \\/ _` |\n' +
+' | | | (_| | |  | | | | | |   |_|   | | |  __/  __/ (_| |\n' +
+' |_|  \\__,_|_|  |_| |_| |_|         |_|  \\___|\\___|\\__,_|\n';
+
 var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
@@ -21,6 +29,10 @@ function about() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
+    .changeDelay(-1)
+    .typeString('<pre>' + logo + '</pre>')
+    .changeDelay(20)
+    .pauseFor(300)
     .typeString('FARM:/färm/ <br /> verb: in games. to farm. to quickly and repeatedly defeat a challenge or challenger, growing resources and abilities...<br /> noun: a place dedicated to growing and harvesting tasty resources... <br /> <br />')
     .pauseFor(300)
     .typeString('FEED:/fēd/ <br /> verb: in games. to feed. to be repeatedly defeated, helping the opponent... <br /> noun: sustenance.  a meal with loads of very good grub... <br /> <br />')
@@ -173,4 +185,5 @@ function fastForward() {
       break;
     }
   }
+  reset();
 }

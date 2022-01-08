@@ -42,7 +42,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
     display: table;
     text-align: center;
     position: absolute;
@@ -53,38 +53,10 @@ footer nav {
     margin-top: 20px;
 }
 
-footer .svglink,
-footer svglink:hover {
-    text-decoration: none;
-}
-
-footer svg {
-    fill: rgb(185, 180, 169);
-    width: 20px;
-}
-
-footer svg:hover {
-    fill: rgb(0, 170, 0);
-    stroke: rgb(0, 170, 0);
-}
-
-#archive {
-    margin: 0px;
-    padding: 0px;
-    text-transform: uppercase;
-}
-
-img {
-    margin: 20px 0px;
-    padding: 0px;
-	max-width: 100%;
-}
-
-svg {
-    stroke: rgb(185, 180, 169);
-    stroke-width: 1;
-    fill: rgb(185, 180, 169);
-    margin: 0 auto;
+h1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 a {
@@ -167,12 +139,4 @@ a {
     to {
         opacity: 0
     }
-}
-
-pre {
-	max-width: 850px;
-	overflow: scroll;
-	padding: 15px 15px;
-	font-size: 14px;
-
 }
