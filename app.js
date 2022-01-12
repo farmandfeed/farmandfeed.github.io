@@ -97,7 +97,7 @@ function hours() {
     .typeString('Tuesday <span> CLOSED </span>')
     .typeString('Wednesday  11AM - 12AM')
     .typeString('Thursday 11AM - 12AM')
-    .typeString('Friday  11AM - 2AM')
+    .typeString('Friday  <blockquote> 11AM - 2AM')
     .typeString('Saturday  11AM - 2AM')
     .typeString('Sunday 11AM - 12AM')
   
