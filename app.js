@@ -92,8 +92,8 @@ function hours() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
-    .typeString('Look at these amazing tentative hours:<br>')
-    .typeString('Monday <blockquote> 11AM - 12AM<br>')
+    .typeString('Look at these amazing tentative hours:<br><br>')
+    .typeString('Monday <blockquote><a 11AM - 12AM/a<br>')
     .typeString('Tuesday <blockquote> CLOSED<br>')
     .typeString('Wednesday <blockquote> 11AM - 12AM<br>')
     .typeString('Thursday <blockquote> 11AM - 12AM<br>')
