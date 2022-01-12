@@ -93,13 +93,13 @@ function hours() {
     .deleteAll(1)
     .pauseFor(50)
     .typeString('Look at these amazing tentative hours:')
-    .typeString('<blockquote> Monday 11AM - 12AM<br>')
-    .typeString('<blockquote> Tuesday CLOSED<br>')
-    .typeString('<blockquote> Wednesday 11AM - 12AM<br>')
-    .typeString('<blockquote> Thursday 11AM - 12AM<br>')
-    .typeString('<blockquote> Friday 11AM - 2AM<br>')
-    .typeString('<blockquote> Saturday 11AM - 2AM<br>')
-    .typeString('<blockquote> Sunday 11AM - 12AM<br>')
+    .typeString('Monday 11AM - 12AM<br>')
+    .typeString('Tuesday CLOSED<br>')
+    .typeString('Wednesday 11AM - 12AM<br>')
+    .typeString('Thursday 11AM - 12AM<br>')
+    .typeString('Friday 11AM - 2AM<br>')
+    .typeString('Saturday 11AM - 2AM<br>')
+    .typeString('Sunday 11AM - 12AM<br>')
   
     .pauseFor(1000);
   typewriter.start();
