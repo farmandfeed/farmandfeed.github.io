@@ -13,7 +13,7 @@ var typewriter = new Typewriter(app, {
   delay: 20,
   autoStart: true,
   cursor: '█',
-  strings: ['Connection link.... <br />Encoding....<br /> Uploading....']
+  strings: ['Connection link....<br>Encoding....<br> Uploading....']
 });
 
 function reset() {
@@ -33,18 +33,26 @@ function about() {
     .typeString('<pre>' + logo + '</pre>')
     .changeDelay(20)
     .pauseFor(300)
-    .typeString('FARM:/färm/ <br /> verb: in games. to farm. to quickly and repeatedly defeat a challenge or challenger, growing resources and abilities...<br /> noun: a place dedicated to growing and harvesting tasty resources... <br /> <br />')
+    .typeString('FARM:/färm/<br>')
+    .typeString('  verb: in games. to farm. to quickly and repeatedly<br>')
+    .typeString('        defeat a challenge or challenger, growing resources<br>')
+    .typeString('        and abilities...<br>')
+    .typeString('  noun: a place dedicated to growing and harvesting<br>')
+    .typeString('        tasty resources...<br><br>')
     .pauseFor(300)
-    .typeString('FEED:/fēd/ <br /> verb: in games. to feed. to be repeatedly defeated, helping the opponent... <br /> noun: sustenance.  a meal with loads of very good grub... <br /> <br />')
+    .typeString('FEED:/fēd/<br>')
+    .typeString('  verb: in games. to feed. to be repeatedly defeated,<br>')
+    .typeString('        helping the opponent...<br>')
+    .typeString('  noun: sustenance.  a meal with loads of very good grub...<br><br>')
     .pauseFor(300)
-    .typeString('Locate: <br />')
+    .typeString('Locate:<br>')
     .pauseFor(300)
-    .typeString('<a href="https://goo.gl/maps/Ym5q1N9xt9EjyQ638">coordinates</a> <br />')
-    .typeString('<a href="https://www.instagram.com/farm_and_feed">instagram</a> <br />')
-    .typeString('<a href="https://www.facebook.com/farmandfeedplano">facebook</a> <br />')
-    .typeString('<a href="https://twitter.com/farm_and_feed">twitter</a> <br />')
-    .typeString('<a href="https://www.linkedin.com/company/farmandfeed">linkedIn</a> <br />')
-    .typeString('<a href="https://www.tiktok.com/@farmfeed1">tiktok</a> <br />')
+    .typeString('  <a href="https://goo.gl/maps/Ym5q1N9xt9EjyQ638">coordinates</a><br>')
+    .typeString('  <a href="https://www.instagram.com/farm_and_feed">instagram</a><br>')
+    .typeString('  <a href="https://www.facebook.com/farmandfeedplano">facebook</a><br>')
+    .typeString('  <a href="https://twitter.com/farm_and_feed">twitter</a><br>')
+    .typeString('  <a href="https://www.linkedin.com/company/farmandfeed">linkedIn</a><br>')
+    .typeString('  <a href="https://www.tiktok.com/@farmfeed1">tiktok</a><br>')
     .pauseFor(1000);
   typewriter.start();
 }
@@ -70,7 +78,7 @@ function reserve() {
     .pauseFor(50)
     .typeString('Make a reservation<br><br>')
     .pauseFor(300)
-    .typeString('<blockquote><a href="#">RESERVE</a><br><br>')
+    .typeString('    <a href="#">RESERVE</a><br><br>')
     .pauseFor(300)
     .typeString('Thank you')
     .pauseFor(1000);
@@ -92,15 +100,15 @@ function hours() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
-    .typeString('Look at these amazing tentative hours:<br />')
-    .typeString('<p> Monday <span>  11AM - 12AM </span> </p>')
-    .typeString('Tuesday <span> CLOSED </span>')
-    .typeString('Wednesday  11AM - 12AM')
-    .typeString('Thursday 11AM - 12AM')
-    .typeString('Friday  <blockquote> 11AM - 2AM')
-    .typeString('Saturday  11AM - 2AM')
-    .typeString('Sunday 11AM - 12AM')
-  
+    .typeString('Look at these amazing tentative hours:<br>')
+    .typeString('<br>')
+    .typeString('  Monday      11AM - 12AM<br>')
+    .typeString('  Tuesday     CLOSED<br>')
+    .typeString('  Wednesday   11AM - 12AM<br>')
+    .typeString('  Thursday    11AM - 12AM<br>')
+    .typeString('  Friday      11AM - 2AM<br>')
+    .typeString('  Saturday    11AM - 2AM<br>')
+    .typeString('  Sunday      11AM - 12AM<br>')
     .pauseFor(1000);
   typewriter.start();
 }
