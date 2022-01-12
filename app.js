@@ -93,7 +93,7 @@ function hours() {
     .deleteAll(1)
     .pauseFor(50)
     .typeString('Look at these amazing tentative hours:<br />')
-    .typeString('Monday <span>  11AM - 12AM </span>')
+    .typeString('<p> Monday <span>  11AM - 12AM </span> </p>')
     .typeString('Tuesday <span> CLOSED </span>')
     .typeString('Wednesday  11AM - 12AM')
     .typeString('Thursday 11AM - 12AM')
