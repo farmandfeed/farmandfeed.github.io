@@ -78,18 +78,18 @@ function menu() {
     .typeString('     GRILLED PORK / IMPOSSIBLE SAUSAGE LETTUCE CUPS:   $10.25<br>') 
     .typeString('     peads and barnetts pork collar or impossible sausage,<br>')
     .typeString('     nam prik noom, pickled cucumber, herbs<br>')
-    .typeString('     BAO SLIDERS:                                      $10.25<br>') 
+    .typeString('     BAOWSER SLIDERS:                                  $10.25<br>') 
     .typeString('     24hr beef brisket or impossible sausage, spicy hoisin,<br>') 
     .typeString('     cilantro, jalapeno, pickled carrot & daikon, fried bao buns<br>')
-    .typeString('     HOT CHEETOS CORN CHEESEBALLS:                     $ 8.50<br>') 
+    .typeString('     FLAMIN CHEETOS CORN CHEESEBALLS:                  $ 8.50<br>') 
     .typeString('     brown butter roasted corn, bulldog sauce, kewpie,<br>' 
     .typeString('     pickled red onion, bonito<br><br>')
     .typeString('<u>HIT PAUSE</u><br>')
     .typeString('     GG BURGER:                                        $15.50<br>')
     .typeString('     dry aged beef patty, tillamook cheddar, caramelized onions, 
     .typeString('     bread & butter pickles, secret sauce, potato bun, fries<br>')
-    .typeString('     VEGAN BURGER:                                     $17.50<br>')
-    .typeString('     impossible meats, aged cashew nut cheddar, caramelized onions,<br>'
+    .typeString('     VEGAN GG BURGER:                                  $17.50<br>')
+    .typeString('     impossible meats, aged cashew nut cheddar, caramelized onions,<br>')
     .typeString('     bread & butter pickles, sauce, vegan potato bun, fries<br>')
     .typeString('     HOT FISH SANDO:                                   $16.50<br>')
     .typeString('     buttermilk fried atlantic cod, sichuan chile oil, slaw,<br>') 
@@ -168,7 +168,8 @@ function games() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
-    .typeString('Play sweet games')
+    .typeString('Play sweet games<br>')
+    .typeString('    <a href="https://www.toasttab.com/farmandfeed">GAME LIBRARY</a><br>')
     .pauseFor(1000);
   typewriter.start();
 }
