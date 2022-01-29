@@ -65,7 +65,7 @@ function menu() {
     .typeString('This is the menu<br><br>')
     .pauseFor(300)
     .typeString('We have delicious food<br><br>')
-    .typeString('<u>HEADSHOTS</u><br>'     
+    .typeString('<u>HEADSHOTS</u><br>')
     .typeString('     MINI LONGANISA CORN DOGS:                         $10.00 <br>')
     .typeString('     filipino longanisa sausage, spicy banana ketchup<br>')
     .typeString('     PIZZA ROLLS:                                      $10.00<br>')                     
@@ -82,11 +82,11 @@ function menu() {
     .typeString('     24hr beef brisket or impossible sausage, spicy hoisin,<br>') 
     .typeString('     cilantro, jalapeno, pickled carrot & daikon, fried bao buns<br>')
     .typeString('     FLAMIN CHEETOS CORN CHEESEBALLS:                  $ 8.50<br>') 
-    .typeString('     brown butter roasted corn, bulldog sauce, kewpie,<br>' 
+    .typeString('     brown butter roasted corn, bulldog sauce, kewpie,<br>')
     .typeString('     pickled red onion, bonito<br><br>')
     .typeString('<u>HIT PAUSE</u><br>')
     .typeString('     GG BURGER:                                        $15.50<br>')
-    .typeString('     dry aged beef patty, tillamook cheddar, caramelized onions, 
+    .typeString('     dry aged beef patty, tillamook cheddar, caramelized onions,<br>')
     .typeString('     bread & butter pickles, secret sauce, potato bun, fries<br>')
     .typeString('     VEGAN GG BURGER:                                  $17.50<br>')
     .typeString('     impossible meats, aged cashew nut cheddar, caramelized onions,<br>')
@@ -101,7 +101,7 @@ function menu() {
     .typeString('     mango, edamame, spicy chili aioli <br>')
     .typeString('<u>FTW</u><br>')
     .typeString('     MILK AND COOKIES:                                 $5.75<br>')
-    .typeString('     sea salt chocolate chip cookies,<br>' 
+    .typeString('     sea salt chocolate chip cookies,<br>')
     .typeString('     peanut butter chocolate oat milk made<br>')
     .typeString('     WARM PINEAPPLE BUN:                               $7.00<br>') 
     .typeString('     salted egg yolk, brown butter, semifreddo<br><br>')
