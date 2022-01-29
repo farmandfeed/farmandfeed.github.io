@@ -62,9 +62,9 @@ function menu() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
-    .typeString('This is the menu<br><br>')
+    .typeString('This is the menu.<br><br>')
     .pauseFor(300)
-    .typeString('We have delicious food<br><br>')
+    .typeString('We have delicious food...<br><br>')
     .typeString('<u>HEADSHOTS</u><br>')
     .typeString('     MINI LONGANISA CORN DOGS:                         $10.00 <br>')
     .typeString('     filipino longanisa sausage, spicy banana ketchup<br>')
@@ -105,7 +105,7 @@ function menu() {
     .typeString('     peanut butter chocolate oat milk made<br>')
     .typeString('     WARM PINEAPPLE BUN:                               $ 7.00<br>') 
     .typeString('     salted egg yolk, brown butter, semifreddo<br><br>')
-    .typeString('And tasty beverages<br><br>')
+    .typeString('And tasty beverages...<br><br>')
     .typeString('<u>COCKTAILS </u><br>')
     .typeString('     KIRBYS DRINKLAND                                  $10.00<br>')
     .typeString('     yogurt soju, calvados, strawberry puree, egg white,<br>')
@@ -169,6 +169,7 @@ function order() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
+    .typeString('Order online:<br><br>')
     .typeString('    <a href="https://www.toasttab.com/farmandfeed">ORDER FOOD</a><br>')
     .pauseFor(1000);
   typewriter.start();
@@ -197,7 +198,7 @@ function events() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
-    .typeString('Watch cool stuff')
+    .typeString('COMING SOON')
     .pauseFor(1000);
   typewriter.start();
 }
