@@ -169,7 +169,7 @@ function games() {
     .deleteAll(1)
     .pauseFor(50)
     .typeString('Play sweet games<br>')
-    .typeString('    <a href="https://www.toasttab.com/farmandfeed">GAME LIBRARY</a><br>')
+    .typeString('    <a href="https://docs.google.com/spreadsheets/d/1C1YDj-6ldxhRh5d_I_yh00HmuiS3m8MJ3-KiQSsRsXw/edit?usp=sharing">GAME LIBRARY</a><br>')
     .pauseFor(1000);
   typewriter.start();
 }
