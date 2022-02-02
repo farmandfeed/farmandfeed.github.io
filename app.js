@@ -64,6 +64,12 @@ function menu() {
     .pauseFor(50)
     .typeString('This is the menu.<br><br>')
     .pauseFor(300)
+    .typeString('We have fun stations, couches and booths to reserve with:<br>')
+    .typeString('PS5s, XBOX Xs, Switches, PCs.<br>')
+    .typeString('     $5/hr/person until 6PM and after 10PM<br>')
+    .typeString('     $10/hr/person 6PM - 10PM<br>')
+    .typeString('     $5 for unlimited board games in the bar area<br><br>')
+    .pauseFor(300)
     .typeString('We have delicious food...<br><br>')
     .typeString('<u>HEADSHOTS</u><br>')
     .typeString('     MINI LONGANISA CORN DOGS:                         $10.00 <br>')
@@ -156,10 +162,15 @@ function reserve() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
-    .typeString('Make a reservation<br><br>')
+    .typeString('We have fun stations, couches and booths to reserve with:<br>')
+    .typeString('PS5s, XBOX Xs, Switches, PCs.<br>')
+    .typeString('     $5/hr/person until 6PM and after 10PM<br>')
+    .typeString('     $10/hr/person 6PM - 10PM<br>')
+    .typeString('     $5 for unlimited board games in the bar area<br><br>')
     .pauseFor(300)
     .typeString('    <a href="https://www.sevenrooms.com/reservations/farmfeed?duration-picker=true">RESERVE GAMING+FOOD+DRINK</a><br><br>')
     .typeString('    <a href="https://www.sevenrooms.com/reservations/farmfeed">RESERVE FOOD+DRINK</a><br><br>')
+    .typeString('Or call: 432-356-3467<br><br>')
     .pauseFor(300)
     .typeString('Thank you')
     .pauseFor(1000);
@@ -171,7 +182,7 @@ function order() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
-    .typeString('Order online:<br><br>')
+    .typeString('Order food online:<br><br>')
     .pauseFor(300)
     .typeString('    <a href="https://www.toasttab.com/farmandfeed">ORDER FOOD</a><br><br>')
     .pauseFor(300)
@@ -193,7 +204,10 @@ function hours() {
     .typeString('  Thursday    11AM - 12AM<br>')
     .typeString('  Friday      11AM - 2AM<br>')
     .typeString('  Saturday    11AM - 2AM<br>')
-    .typeString('  Sunday      11AM - 12AM<br>')
+    .typeString('  Sunday      11AM - 12AM<br><br>')
+    .typeString('Shops at Legacy North, 7401 Lone Star Drive <br>')
+    .typeString('STE B120<br>')
+    .typeString('Plano, TX 75024<br>')
     .pauseFor(1000);
   typewriter.start();
 }
@@ -246,6 +260,12 @@ function contact() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
+    .typeString('Call us at: 432-356-3467<br>')
+    .typeString('Find us at:<br>')
+    .typeString('     Shops at Legacy North, 7401 Lone Star Drive <br>')
+    .typeString('     STE B120<br>')
+    .typeString('     Plano, TX 75024<br>')
+    .typeString('     <a href="https://goo.gl/maps/JPgZHbeJ43mJX5Ci8">coordinates</a><br><br>')
     .typeString('We love email<br><br>')
     .pauseFor(300)
     .typeString('<blockquote><a href="mailto:info@farmandfeed.com">CONTACT US</a><br><br>')
