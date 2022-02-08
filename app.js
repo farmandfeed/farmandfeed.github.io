@@ -214,6 +214,13 @@ function hours() {
 
 function events() {
   reset();
+    <div id="sr-events-root" class="sr-md sr-dark sr-#00aa00">
+	    Reservations
+    </div>
+    <script>
+	    SEVENROOMS_VENUE_ID =  "farmfeed"
+    </script>
+    <script src="https://www.sevenrooms.com/embed.js"></script>
   typewriter
     .deleteAll(1)
     .pauseFor(50)
@@ -221,7 +228,7 @@ function events() {
     .typeString('The couple that progresses the furtherst in<br>')
     .typeString('the game, It Takes Two, gets their evening comped.<br>')
     .typeString('6:30 entry, challenge begins at 7pm and ends at 9pm.<br>')
-    .typeString('Monday, February 14th 2022: $XX per couple.<br><br>')
+    .typeString('Monday, February 14th 2022: $75 per couple.<br><br>')
     .typeString('LEAGUE OF LEGENDS CLASS WITH OUR OWN MASTER<br>')
     .typeString('Play some games with our own in-house master and<br>')
     .typeString('review footage after matches to help improve your<br>')
@@ -232,7 +239,8 @@ function events() {
     .typeString('more people into the game and are holding a<br>')
     .typeString('session for character creation.  Develop your<br>')
     .typeString('hero"s backstory, roll attributes and learn about<br>')
-    .typeString('about the awesome world of Dungeons and Dragons!<br><br>')
+    .typeString('about the awesome world of Dungeons and Dragons!<br>
+    .typeString('$10/person for a 4 to 5 hour session. Monday 2/28<br>')
     .typeString('LAN-OLYMPICS<br>')
     .typeString('Do you want free gaming for a year?<br>')
     .typeString('Are you really competitive in un-competitive games?<br>')
