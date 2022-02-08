@@ -234,7 +234,7 @@ function events() {
     .typeString('more people into the game and are holding a<br>')
     .typeString('session for character creation.  Develop your<br>')
     .typeString('hero"s backstory, roll attributes and learn about<br>')
-    .typeString('about the awesome world of Dungeons and Dragons!<br>
+    .typeString('about the awesome world of Dungeons and Dragons!<br>')
     .typeString('$10/person for a 4 to 5 hour session. Monday 2/28<br>')
     .typeString('LAN-OLYMPICS<br>')
     .typeString('Do you want free gaming for a year?<br>')
