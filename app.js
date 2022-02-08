@@ -52,7 +52,7 @@ function about() {
     .typeString('  <a href="https://www.facebook.com/farmandfeedplano">facebook</a><br>')
     .typeString('  <a href="https://twitter.com/farm_and_feed">twitter</a><br>')
     .typeString('  <a href="https://www.linkedin.com/company/farmandfeed">linkedIn</a><br>')
-    .typeString('  <a href="https://www.tiktok.com/@farmfeed1">tiktok</a><br>')
+    .typeString('  <a href="https://www.tiktok.com/@farmandfeed">tiktok</a><br>')
     .pauseFor(1000);
   typewriter.start();
 }
@@ -214,16 +214,11 @@ function hours() {
 
 function events() {
   reset();
-    <div id="sr-events-root" class="sr-md sr-dark sr-#00aa00">
-	    Reservations
-    </div>
-    <script>
-	    SEVENROOMS_VENUE_ID =  "farmfeed"
-    </script>
-    <script src="https://www.sevenrooms.com/embed.js"></script>
   typewriter
     .deleteAll(1)
     .pauseFor(50)
+    .typeString('<a href="http://sevn.ly/x7toJNEs">SEE ALL UPCOMING EVENTS and BOOK A SPOT!</a><br><br>')
+    .typeString('<u>EXAMPLES</u><br>')
     .typeString('IT TAKES TWO VALENTINE"S DAY CHALLENGE<br>')
     .typeString('The couple that progresses the furtherst in<br>')
     .typeString('the game, It Takes Two, gets their evening comped.<br>')
