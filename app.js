@@ -49,6 +49,7 @@ function about() {
     .pauseFor(300)
     .typeString('  <a href="https://goo.gl/maps/JPgZHbeJ43mJX5Ci8">coordinates</a><br>')
     .typeString('  <a href="https://www.instagram.com/farmandfeed">instagram</a><br>')
+    .typeString('  <a href="https://discord.gg/9c4Uthvz">discord</a><br>')
     .typeString('  <a href="https://www.facebook.com/farmandfeedplano">facebook</a><br>')
     .typeString('  <a href="https://twitter.com/farm_and_feed">twitter</a><br>')
     .typeString('  <a href="https://www.linkedin.com/company/farmandfeed">linkedIn</a><br>')
@@ -217,7 +218,7 @@ function events() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
-    .typeString('<a href="http://sevn.ly/x7toJNEs">SEE ALL UPCOMING EVENTS and BOOK A SPOT!</a><br><br>')
+    .typeString('<a href="http://sevn.ly/x7toJNEs">CLICK FOR UPCOMING EVENTS and to BOOK A SPOT!</a><br><br>')
     .typeString('<u>EXAMPLES</u><br>')
     .typeString('IT TAKES TWO VALENTINE"S DAY CHALLENGE<br>')
     .typeString('The couple that progresses the furtherst in<br>')
