@@ -279,7 +279,7 @@ function contact() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
-    .typeString('Call us at: 432-356-3467<br>')
+    .typeString('Call us at: 432-356-3467<br><br>')
     .typeString('Find us at:<br>')
     .typeString('     Shops at Legacy North, 7401 Lone Star Drive <br>')
     .typeString('     STE B120<br>')
