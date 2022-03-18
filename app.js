@@ -288,7 +288,7 @@ function contact() {
     .typeString('We love email<br><br>')
     .pauseFor(300)
     .typeString('<blockquote><a href="mailto:info@farmandfeed.com">GENERAL QUESTIONS</a><br><br>')
-    .typeString('<blockquote><a href="mailto:events@farmandfeed.com">EVENTS + PARTIES + RESERVATIONS</a><br><br>'
+    .typeString('<blockquote><a href="mailto:events@farmandfeed.com">EVENTS + PARTIES + RESERVATIONS</a><br><br>')
     .pauseFor(300)
     .typeString('Thank you')
     .pauseFor(1000);
