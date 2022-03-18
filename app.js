@@ -10,7 +10,7 @@ var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
   loop: false,
-  delay: 50,
+  delay: 300,
   autoStart: true,
   cursor: '█',
   strings: ['Connection link....<br>Encoding....<br> Uploading....']
@@ -167,7 +167,13 @@ function reserve() {
     .typeString('PS5s, XBOX Xs, Switches, PCs.<br>')
     .typeString('     $5/hr/person until 6PM and after 10PM<br>')
     .typeString('     $10/hr/person 6PM - 10PM<br>')
-    .typeString('     $5 for unlimited board games in the bar area<br><br>')
+    .typeString('     $5 for unlimited board games in the bar area<br><br>')          
+    .pauseFor(300)
+    .typeString('    <a href="https://www.sevenrooms.com/reservations/farmfeed?duration-picker=true">RESERVE GAMING+FOOD+DRINK</a><br><br>')
+    .typeString('    <a href="https://www.sevenrooms.com/reservations/farmfeed">RESERVE FOOD+DRINK</a><br><br>')
+    .typeString('    <a href="mailto:events@farmandfeed.com">For events and parties please click here to email</a><br><br>') 
+    .typeString('Or call: 432-356-3467<br><br>') 
+    .pauseFor(300)
     .typeString('Please review our <u>CODE of CONDUCT</u> before booking:<br>')
     .typeString('     No Toxicity - To each other and to our staff.<br><br>')
     .typeString('     Kids <13 must always be accompanied by an adult and are not to<br>')
@@ -181,13 +187,7 @@ function reserve() {
     .typeString('     We do our best to accomodate, but if requests were not specified in advance,<br>')
     .typeString('     we cannot guarantee specific game/console/pc availability.<br><br>')
     .typeString('     If you are unhappy with anything please just let us know. We want <br>')
-    .typeString('     this to be a great experience as much as you do!<br><br>')                
-    .pauseFor(300)
-    .typeString('    <a href="https://www.sevenrooms.com/reservations/farmfeed?duration-picker=true">RESERVE GAMING+FOOD+DRINK</a><br><br>')
-    .typeString('    <a href="https://www.sevenrooms.com/reservations/farmfeed">RESERVE FOOD+DRINK</a><br><br>')
-    .typeString('     <a href="mailto:events@farmandfeed.com">For events and parties please email here</a><br><br>') 
-    .typeString('Or call: 432-356-3467<br><br>')      
-    .pauseFor(300)
+    .typeString('     this to be a great experience as much as you do!<br><br>')      
     .typeString('Thank you')
     .pauseFor(1000);
   typewriter.start();
