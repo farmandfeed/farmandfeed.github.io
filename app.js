@@ -233,7 +233,7 @@ function events() {
     .deleteAll(1)
     .pauseFor(50)
     .typeString('<a href="mailto:events@farmandfeed.com">For your own events and parties please email here</a><br><br>') 
-    .typeString('<a href="www.sevenrooms.com/events/farmfeed">CLICK FOR OUR UPCOMING EVENTS and to BOOK A SPOT!</a><br><br>')
+    .typeString('<a href="https://www.sevenrooms.com/events/farmfeed">CLICK FOR OUR UPCOMING EVENTS and to BOOK A SPOT!</a><br><br>')
     .typeString('<u>EXAMPLES</u><br>')
     .typeString('FALL GUYS SUNDAY LAN LUNACY<br>')
     .typeString('This Sunday 3 - 5 we are hosting a Fall Guys local server<br>')
