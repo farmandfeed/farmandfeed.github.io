@@ -135,7 +135,7 @@ function menu() {
     .typeString('     rye whiskey, averna amaro, bitters, orange<br>')
     .typeString('     GILLIONAIRE                                       $12.00<br>')
     .typeString('     dewar\'s, oj, maple syrup, bitters<br><br>')
-    .typeString('<u>PHASERS TO STUN</u>')
+    .typeString('<u>PHASERS TO STUN</u><br>')
     .typeString('     RED WARRIOR                                       $ 7.50<br>')
     .typeString('     vodka, lemon juice, cranberry juice, simple, grenadine<br>')
     .typeString('     MANABURN                                          $ 7.50<br>')
