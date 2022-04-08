@@ -112,7 +112,7 @@ function menu() {
     .typeString('     MILK AND COOKIES:                                 $ 5.75<br>')
     .typeString('     sea salt chocolate chip cookies,<br>')
     .typeString('     peanut butter chocolate oat milk made<br>')
-    .typeString('     KOOPA TROOPA ICE CREAM SANDWICH:                   $ 7.00<br>') 
+    .typeString('     KOOPA TROOPA ICE CREAM SANDWICH:                  $ 7.00<br>') 
     .typeString('     please allow 15mins. salted egg yolk, brown butter,<br>')
     .typeString('     semifreddo OR cinnamon semifreddo + caramalized pineapple<br><br>')
     .typeString('And tasty beverages...<br><br>')
