@@ -107,7 +107,7 @@ function menu() {
     .typeString('     HOT FISH SANDO:                                   $15.00<br>')
     .typeString('     buttermilk fried cod, sichuan chile oil, vinegar slaw,<br>') 
     .typeString('     yuzu kosho mayo, brioche bun, fries<br>')
-    .typeString('     NOT SO EASY BRISKET MAC+CHEESE:                   $15.00<br>')
+    .typeString('     NOT SO EASY BRISKET MAC AND CHEESE:               $15.00<br>')
     .typeString('     cavatappi pasta, cheddar cheese, 24hr brisket, dr pepper<br>')
     .typeString('     bbq sauce, crispy panko topping, chive<br>')
     .typeString('     PULLED PORK GRILLED CHEESE:                       $15.00<br>')
