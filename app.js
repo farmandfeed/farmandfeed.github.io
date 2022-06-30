@@ -103,7 +103,7 @@ function menu() {
     .typeString('     cheddar, caramelized onions, pickles, secret sauce, <br>')
     .typeString('     brioche bun, fries, +2 for bacon<br>')
     .typeString('     VEGAN GG BURGER:                                  $17.00<br>')
-    .typeString('     burger except with impossible meat, aged vegan cheddar <br>'
+    .typeString('     burger except with impossible meat, aged vegan cheddar <br>')
     .typeString('     HOT FISH SANDO:                                   $15.00<br>')
     .typeString('     buttermilk fried cod, sichuan chile oil, vinegar slaw,<br>') 
     .typeString('     yuzu kosho mayo, brioche bun, fries<br>')
