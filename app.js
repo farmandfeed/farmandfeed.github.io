@@ -87,7 +87,7 @@ function menu() {
     .typeString('     houseblend chile powder, thai basil, chili honey<br>')
     .typeString('     DEVILED EASTER EGGS:                              $ 8.50<br>')
     .typeString('     kewpie mayo, togarashi, sweet + spicy gochujang bacon<br>')
-    .typeString('     PORK+PINEAPPLE TACO:                              $10.00<br>') 
+    .typeString('     PORK AND PINEAPPLE TACO:                          $10.00<br>') 
     .typeString('     slow roasted pork or impossible sausage,grilled pineapple, <br>')
     .typeString('     nam prik noom, queso fresco, cilantro, flour tortilla or<br>')
     .typeString('     lettuce wrap<br>')     
