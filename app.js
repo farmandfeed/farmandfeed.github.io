@@ -142,7 +142,7 @@ function menu() {
     .typeString('<u>L00T PLATE  $10  </u><br>')
     .typeString('     if you love the thrill of loot crates, RNG and crit rolls,<br>')
     .typeString('     then roll a 1D20 for food: <br><br>')
-    .typeString('     <u>Roll</u>                     <u>Outcome</u><br>      ')
+    .typeString('     <u>Roll</u>                      <u>Outcome</u><br>')
     .typeString('       1                        Bag of Flamin Hot Cheetos<br>')
     .typeString('     2  - 7                     Select an $8.50 menu item<br>')
     .typeString('     8  - 13                    Select a $10.00 menu item<br>')
