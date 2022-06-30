@@ -139,7 +139,7 @@ function menu() {
     .typeString('     GRILLED CHEESE SANDWICH                           $10.00<br>')
     .typeString('     PIZZA ROLLS - NO PEPPERONI                        $ 8.50<br>')
     .typeString('     SIDE OF FRIES                                     $ 4.00<br><br>')
-    .typeString('<u>L00T PLATE  $10  </u><br>')
+    .typeString('<u>L00T PLATE  $10</u><br>')
     .typeString('     if you love the thrill of loot crates, RNG and crit rolls,<br>')
     .typeString('     then roll a 1D20 for food: <br><br>')
     .typeString('     <u>Roll</u>                     <u>Outcome</u><br>')
