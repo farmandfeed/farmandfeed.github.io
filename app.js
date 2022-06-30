@@ -74,7 +74,7 @@ function menu() {
     .typeString('We have delicious food...<br><br>')
     .typeString('<u>HEADSHOTS</u><br>')
     .typeString('     MINI LONGANISA CORN DOGS:                         $10.00 <br>')
-    .typeString('     filipino longanisa sausage, spicy banana ketchup<br>')
+    .typeString('     filipino longanisa sausage, spicy banana ketchup, chives<br>')
     .typeString('     PIZZA ROLLS:                                      $10.00<br>')                     
     .typeString('     air bread, mozzarella, tomato jam, crispy pepperoni<br>')
     .typeString('     GRILLED HALLOUMI CAPRESE SALAD:                   $ 8.50<br>')
