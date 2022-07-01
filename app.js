@@ -229,7 +229,7 @@ function menu() {
     .typeString('     long drink strong $6, long drink cranberry $6<br><br>')
     .typeString('<u>WINE*</u><br>')
     .typeString('     CRAFTERS UNION                                    $ 9.00<br>')
-    .typeString('     red blend, pinot grigio,brut bubbles<br>')
+    .typeString('     red blend, pinot grigio, brut bubbles<br>')
     .typeString('     *1 can of wine contains 2 glass<br>')
     .pauseFor(1000);
   typewriter.start();
@@ -241,7 +241,7 @@ function reserve() {
     .deleteAll(1)
     .pauseFor(50)
     .typeString('We have fun stations, couches and booths to reserve with:<br>')
-    .typeString('PS5s, XBOX Xs, Switches, PCs.<br>')
+    .typeString('PS5s, XBOX Xs, Switches, PCs:<br><br>')
     .typeString('     $5/hr/person until 6PM and after 10PM<br>')
     .typeString('     $10/hr/person 6PM - 10PM<br>')
     .typeString('     $5 for unlimited board games in the bar area<br><br>')          
@@ -253,17 +253,17 @@ function reserve() {
     .pauseFor(300)
     .typeString('Please review our <u>CODE of CONDUCT</u> before booking:<br>')
     .typeString('     No Toxicity - To each other and to our staff.<br><br>')
-    .typeString('     Kids <13 must always be accompanied by an adult and are not to<br>')
+    .typeString('     Kids <15 must always be accompanied by an adult and are not to<br>')
     .typeString('     be alone at any table/booth/couch/pc or disturbing other guests.<br><br>')
-    .typeString('     We take credit card info prior to gaming.  If equipment is stolen or <br>')
-    .typeString('     maliciously broken we will charge the card for replacement value.<br><br>')
-    .typeString('     There is a 20% service charge on groups >6.  Large groups should book <br>')
-    .typeString('     through our events/party process below, for us to best accomodate.<br><br>')
-    .typeString('     Do not download or delete games on our consoles/pcs. See below for requests.<br>')
+    .typeString('     We take credit card info prior to gaming in case of stolen or damaged equipment <br>')
+    .typeString('     There is a 20% service charge on groups 6 or greater.  For us to best accomodate<br>')
+    .typeString('     large groups, please reach out: <a href="mailto:events@farmandfeed.com">email events team</a><br><br>')
+    .typeString('     Do not download or delete games on our consoles/pcs. See below for requests.<br><br>')
     .typeString('     We do our best to accomodate, but if requests were not specified in advance,<br>')
     .typeString('     we cannot guarantee specific game/console/pc availability.<br><br>')
     .typeString('     If you are unhappy with anything please just let us know. We want <br>')
-    .typeString('     this to be a great experience as much as you do!<br><br>')      
+    .typeString('     this to be a great experience as much as you do!<br><br>') 
+
     .typeString('Thank you')
     .pauseFor(1000);
   typewriter.start();
