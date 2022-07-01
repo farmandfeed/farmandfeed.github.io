@@ -335,7 +335,7 @@ function events() {
     .typeString('and we\'ll play a few rounds so that everyone gets a chance at the fun!<br>')
     .typeString('no entry fee.<br><br>')
     .typeString('<u>DFW BOARDGAMES + GEEKS PLANO MEETUP</u><br>')
-    .typeString('1st and 3rd Wednesdays of every month. 7 - 11PM.<br>')
+    .typeString('1st and 3rd Wednesdays of every month. 6 - 11PM.<br>')
     .typeString('Join fellow boardgame fans to play from our selection,<br>')
     .typeString('or bring your own. no entry fee.<br><br>')
     .typeString('<u>ADVENTURERS\' GUILD - DND 4th WEDNESDAY OF EVERY MONTH</u><br>')
