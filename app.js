@@ -50,7 +50,7 @@ function about() {
     .pauseFor(300)
     .typeString('  <a href="https://goo.gl/maps/JPgZHbeJ43mJX5Ci8">coordinates</a><br>')
     .typeString('  <a href="https://www.instagram.com/farmandfeed">instagram</a><br>')
-    .typeString('  <a href="https://discord.gg/xESNekhAME">discord</a><br>')
+    .typeString('  <a href="https://discord.gg/z8NnwtjJFS">discord</a><br>')
     .typeString('  <a href="https://www.facebook.com/farmandfeedplano">facebook</a><br>')
     .typeString('  <a href="https://twitter.com/farm_and_feed">twitter</a><br>')
     .typeString('  <a href="https://www.linkedin.com/company/farmandfeed">linkedIn</a><br>')
