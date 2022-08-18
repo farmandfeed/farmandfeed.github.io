@@ -30,7 +30,6 @@ function about() {
     .deleteAll(1)
     .pauseFor(50)
     .changeDelay(-1)
-    .typeString('CLICK OR TAP TO LOAD CONTENT INSTANTLY<br><br>')
     .typeString('<pre>' + logo + '</pre>')
     .changeDelay(20)
     .pauseFor(300)
