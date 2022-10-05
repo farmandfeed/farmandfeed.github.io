@@ -56,6 +56,8 @@ function about() {
     .typeString('  <a href="https://www.tiktok.com/@farmandfeed">tiktok</a><br>')
     .pauseFor(1000);
   typewriter.start();
+  typewriter.stop();
+  fastForward();
 }
 
 function menu() {
@@ -233,6 +235,8 @@ function menu() {
     .typeString('     *1 can of wine contains 2 glass<br>')
     .pauseFor(1000);
   typewriter.start();
+  typewriter.stop();
+  fastForward();
 }
 
 function reserve() {
@@ -267,6 +271,8 @@ function reserve() {
     .typeString('Thank you')
     .pauseFor(1000);
   typewriter.start();
+  typewriter.stop();
+  fastForward();
 }
 
 function order() {
@@ -281,6 +287,8 @@ function order() {
     .typeString('Thank you')
     .pauseFor(1000);
   typewriter.start();
+  typewriter.stop();
+  fastForward();
 }
 
 function hours() {
@@ -302,6 +310,8 @@ function hours() {
     .typeString('Plano, TX 75024<br>')
     .pauseFor(1000);
   typewriter.start();
+  typewriter.stop();
+  fastForward();
 }
 
 function events() {
@@ -366,6 +376,8 @@ function events() {
     //.typeString('is the greatest casual player of them all.  Stay tuned!<br>')
     .pauseFor(1000);
   typewriter.start();
+  typewriter.stop();
+  fastForward();
 }
 
 function games() {
@@ -378,6 +390,8 @@ function games() {
     .typeString('    <a href="https://docs.google.com/spreadsheets/d/1C1YDj-6ldxhRh5d_I_yh00HmuiS3m8MJ3-KiQSsRsXw/edit?usp=sharing">GAME LIBRARY</a><br>')
     .pauseFor(1000);
   typewriter.start();
+  typewriter.stop();
+  fastForward();
 }
 
 function contact() {
@@ -399,6 +413,8 @@ function contact() {
     .typeString('Thank you')
     .pauseFor(1000);
   typewriter.start();
+  typewriter.stop();
+  fastForward();
 }
 
 window.onload = about;
