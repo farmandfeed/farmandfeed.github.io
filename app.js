@@ -244,7 +244,7 @@ function menu() {
     .typeString('     ABV: 6.2%, IBU: 33<br><br>')
     .typeString('     red gate          - manhattan project - amber<br>')
     .typeString('     ABV: 5.4%, IBU: ?<br><br>')
-    .typeString('     day of the dead   - tupps             - pale ale<br>')
+    .typeString('     day of the dead   - tupps             - pale ale<br><br>')
     .typeString('     cosmic prairie    - real ale          - hefeweizen<br>')
     .typeString('     ABV: 5.2%, IBU: 10<br><br>')
     .typeString('     BOTTLES                                           $ 4.25<br>')
