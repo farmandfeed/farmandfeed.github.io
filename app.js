@@ -69,6 +69,8 @@ function menu() {
     .pauseFor(300)
     .typeString('We have fun stations, couches and booths to reserve with:<br>')
     .typeString('PS5s, XBOX Xs, Switches, PCs:<br><br>')
+    .typeString('<u>UPDATED HOURLY PRICING - NEW FLAT RATES</u><br>')
+    .typeString('<u>SPACE(capacity)     WEEKEND      WEEKDAY     LATE NIGHT(after 20PM)</u><br>')
     .typeString('     $5/hr/person until 6PM and after 10PM<br>')
     .typeString('     $10/hr/person 6PM - 10PM<br>')
     .typeString('     $5 for unlimited board games in the bar area<br><br>')
