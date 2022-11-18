@@ -325,7 +325,10 @@ function hours() {
   typewriter
     .deleteAll(1)
     .pauseFor(50)
-    .typeString('Look at these amazing tentative hours:<br>')
+    .typeString('HOLIDAY HOURS:<br>')
+    .typeString('  Tuesday November 22 we are OPEN <br>')
+    .typeString('  Thursday November 24 we are CLOSED <br><br>')  
+    .typeString('Look at these amazing hours:<br>')
     .typeString('<br>')
     .typeString('  Monday      11AM - 12AM<br>')
     .typeString('  Tuesday     CLOSED<br>')
